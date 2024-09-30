@@ -3,45 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
-    <style>
-        body {
-            background-color: aliceblue;
-            text-align: left;
-        }
-        p {
-            font-size: 20px;
-            font-style: normal;
-        }
-        img {
-            width: 200px;
-            border-radius: 50%;
-        }
-        a {
-            text-decoration: none;
-            font-weight: bold;
-        }
-    </style>
+    <title>CV - Akhmad Farhan Athallah</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <img src="pp.png">
-    <p> <strong>BIODATA SINGKAT</strong></p>
-    <p> <strong>NAMA</strong> : Akhmad Farhan</p>
-    <p> <strong>Tempat, Tanggal Lahir</strong> : Kendari, 17 April 2004</p>
-    <p> <strong>HOBI</strong> : Futsal</p>
-    <table border="1" style="width: 30%; border-collapse:collapse">
-        <tr>
-            <th>2019 - 2022</th>
-            <th>SMA IBNU HAJAR BOARDING SCHOOL</th>
-        </tr>
-        <tr>
-            <th>2022 - 2025</th>
-            <th>TELKOM UNIVERSITY</th>
-        </tr>
-    </table>
-    <p>Karakter dalam bidang industri sangat penting untuk mencapai efisiensi dan produktivitas</p>
-    
-    <!-- Link to the portfolio page -->
-    <a href="portofolio.html">Lihat Portofolio Saya</a>
+    <!-- Navigation bar -->
+    <nav>
+        <a href="indeks.html">CV</a>
+        <a href="portofolio.html">Portfolio</a>
+    </nav>
+
+    <!-- CV content -->
+    <div class="container">
+        <!-- Personal details -->
+        <div class="personal-details">
+            <h1>Curriculum Vitae</h1>
+            <p><strong>Personal Details</strong></p>
+            <ul>
+                <li>Name: Akhmad Farhan Athallah</li>
+                <li>Email: athallahfarhan6@gmail.com</li>
+                <li>Phone: +1234567890</li>
+            </ul>
+        </div>
+
+        <!-- Profile image -->
+        <div class="profile-img">
+            <img src="image/foto.png" alt="Profile Picture">
+        </div>
+
+        <!-- Education -->
+        <div class="education">
+            <h2>Education</h2>
+            <table>
+                <tr>
+                    <th>Institution</th>
+                    <th>Year</th>
+                </tr>
+                <tr>
+                    <td>Telkom University</td>
+                    <td>2022 - 2025</td>
+                </tr>
+                <tr>
+                    <td>SMA Ibnu Hajar Boarding School</td>
+                    <td>2019 - 2022</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- About Me -->
+        <div class="about-me">
+            <h2>About Me</h2>
+            <p>Saya seorang profesional berdedikasi dengan pengalaman dalam pengembangan dan hasrat untuk mempelajari teknologi baru.</p>
+        </div>
+
+        <!-- Link to Portfolio -->
+        <a href="portofolio.html" class="button">Lihat Portofolio Saya</a>
+    </div>
 </body>
 </html>
